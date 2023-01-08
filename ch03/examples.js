@@ -1,0 +1,36 @@
+// Arithmetic in JS
+Math.pow(2, 53) // 9007199254740992: 2 to the power 53
+Math.round(.6) // 1: round to the nearest int
+Math.ceil(.6) // 1: round up to an integer
+Math.floor(.6) // 0: round down to an int
+Math.abs(-5) // 5: absolute value
+Math.max(x, y, z) // Return the largest argument
+Math.min(x, y, z) // Return the smallest argument
+Math.random() // Pseudo-random number x where 0 <= x < 1.0
+Math.PI // circunference of a circle
+Math.E // The base of the natural logarithm
+Math.sqrt(3) // 3**0.5: the square root of 3
+Math.pow(3, 1 / 3) // The cube root of 3
+Math.sin(0) // Trigonometry: also Math.cos, Math.atan, etc.
+Math.log(10) // Natural log of 10
+Math.log(100) / Math.LN10 // Base 10 log of 100
+Math.log(512) / Math.LN2 // Base 2 log of 512
+Math.exp(3) // Math.E cubed
+
+// ES6 defines more fn on the Math ob
+
+Math.cbrt(27) // 3: cube root
+Math.hypot(3, 4) // 5: square root of sum of squares of all args
+Math.log10(100) // 2: Base-10 log
+Math.log2(1024) // 10: Base-2 log
+Math.log1p(x) // Natural log of (1 + x); accurate for very small x
+Math.expm1(x) // Math.exp(x)-1; the inverse of the previous operation
+MAth.sign(x) // -1, 0 or 1 for arguments <, == , or > 0
+Math.imul(2, 3) // 6: optimized for multiplication of 32-bit int
+Math.clz32(0xf) // 28: number of leading zero bits in a 32-bit integer
+Math.trunc(3.9) // 3: convert to an int by truncating fractional part
+Math.fround(x) // Round to nearest 32-bit float number
+Math.sinh(x) // Hyperbolic sine. Also Math.cosh(), Math.tanh().
+Math.asinh(x) // Hyperbolic arcsine. Also Math.acosh(), Math.atanh().
+
+
